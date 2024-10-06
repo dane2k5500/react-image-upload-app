@@ -5,8 +5,6 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
-    "predeploy": "npm run start",
-    "deploy": "gh-pages -d start",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
